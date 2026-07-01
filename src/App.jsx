@@ -14,7 +14,7 @@ export default function App() {
             {import.meta.env.DEV && <Leva />}
             <LoadingScreen />
             <Canvas
-                shadows
+                shadows={{ type: THREE.PCFShadowMap }}
                 dpr={[1, 1.5]}
                 camera={{ fov: 55, near: 0.1, far: 200 }}
                 gl={{ antialias: true }}

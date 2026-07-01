@@ -43,6 +43,13 @@ export const createLitMaterial = (textureKey, textures) => {
         material.emissiveIntensity = 3.5
     }
 
+    // Set shadowmap
+    // if (shadows) {
+    //     gl.shadowMap.enabled = true
+    //     if (typeof shadows === 'object') Object.assign(gl.shadowMap, shadows)
+    //     else gl.shadowMap.type = THREE.PCFSoftShadowMap
+    // }
+
     return material
 }
 

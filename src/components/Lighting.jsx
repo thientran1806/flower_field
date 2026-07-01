@@ -30,7 +30,7 @@ export default function Lighting() {
                 intensity={moonIntensity}
                 position={[-18, 34, 12]}
                 castShadow
-                shadow-mapSize={[1024, 1024]}
+                shadow-mapSize={[2048, 2048]}
                 shadow-bias={-0.0002}
                 shadow-normalBias={0.015}
                 shadow-radius={2}

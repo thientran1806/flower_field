@@ -7,7 +7,7 @@ const FLOWER_COUNT = 200
 const FIELD_SIZE = 40
 const PATH_SAMPLE_HEIGHT = 12
 const FLOWER_SCALE_MIN = 0.1
-const FLOWER_SCALE_MAX = 0.3
+const FLOWER_SCALE_MAX = 0.2
 
 // Scratch objects reused every frame/build to avoid garbage collection churn
 const dummy = new THREE.Object3D()
